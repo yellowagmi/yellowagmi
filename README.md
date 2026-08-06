@@ -5,18 +5,19 @@ I build auditable AI-assisted systems for systematic trading research.
 My work combines event-driven trading infrastructure with LLM/MLOps research:
 point-in-time model inputs, independent research reviewers, portfolio-level
 arbitration, deterministic paper-trade lifecycles, experiment lineage, and
-evidence-gated evaluation. 
+evidence-gated evaluation.
 
-The production research workspace remains private;
+The production-oriented workspace remains private;
 selected engineering case studies are published here without proprietary
 strategy logic, prompts, market data, or performance claims.
 
 ## Featured project
 
-### Systematic Trading + LLM/MLOps Engineering
+### LLM-Enabled Systematic Trading Architecture
 
-A sanitized, runnable case study showing how probabilistic research is bounded
-by deterministic software:
+A sanitized, runnable vertical slice of an ongoing private,
+production-oriented systematic-trading platform. The public implementation
+shows how probabilistic research is bounded by deterministic software:
 
 - outcome-blind, point-in-time research contracts;
 - independently dispatched reviewers and separate portfolio-master arbitration;
@@ -27,9 +28,9 @@ by deterministic software:
 
 All public examples are synthetic, provider-free, and paper-only.
 
-[View the repository](https://github.com/yellowagmi/systematic-trading-engineering)
-· [LLM/MLOps architecture](https://github.com/yellowagmi/systematic-trading-engineering/blob/main/docs/LLM_MLOPS_ARCHITECTURE.md)
-· [Paper-arm case study](https://github.com/yellowagmi/systematic-trading-engineering/blob/main/docs/LLM_PAPER_ARM_CASE_STUDY.md)
+[View the repository](https://github.com/yellowagmi/llm-systematic-trading-architecture)
+· [LLM/MLOps architecture](https://github.com/yellowagmi/llm-systematic-trading-architecture/blob/main/docs/LLM_MLOPS_ARCHITECTURE.md)
+· [Paper-arm case study](https://github.com/yellowagmi/llm-systematic-trading-architecture/blob/main/docs/LLM_PAPER_ARM_CASE_STUDY.md)
 
 ## Technical interests
 
