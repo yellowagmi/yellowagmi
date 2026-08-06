@@ -15,9 +15,9 @@ strategy logic, prompts, market data, or performance claims.
 
 ### LLM-Enabled Systematic Trading Architecture
 
-A sanitized, runnable vertical slice of an ongoing private,
-production-oriented systematic-trading platform. The public implementation
-shows how probabilistic research is bounded by deterministic software:
+A runnable public demo representing a sanitized vertical slice of an ongoing
+private, production-oriented systematic-trading platform. It shows how
+probabilistic research is bounded by deterministic software:
 
 - outcome-blind, point-in-time research contracts;
 - independently dispatched reviewers and separate portfolio-master arbitration;
