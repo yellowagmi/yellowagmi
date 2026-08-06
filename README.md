@@ -5,7 +5,9 @@ I build auditable AI-assisted systems for systematic trading research.
 My work combines event-driven trading infrastructure with LLM/MLOps research:
 point-in-time model inputs, independent research reviewers, portfolio-level
 arbitration, deterministic paper-trade lifecycles, experiment lineage, and
-evidence-gated evaluation. The production research workspace remains private;
+evidence-gated evaluation. 
+
+The production research workspace remains private;
 selected engineering case studies are published here without proprietary
 strategy logic, prompts, market data, or performance claims.
 
