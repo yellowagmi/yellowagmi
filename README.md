@@ -4,6 +4,17 @@ I build stateful AI applications and event-driven research infrastructure in
 Python. My focus is making model-driven workflows recoverable, measurable, and
 clear about which software owns authoritative state.
 
+## Open source
+
+**[Evidence Memory](https://github.com/yellowagmi/evidence-memory)** is a Python/SQLite
+library extracted from my private system's memory layer. It retains evidence,
+source-backed interpretations, corrections, and time-aware revision history.
+The private application consumes the same pinned library source.
+
+Its research direction is persistent memory for iterative agent improvement,
+one infrastructure slice for recursive self-improvement. The initial release
+focuses on verifiable memory behavior and independent use.
+
 ## Current work
 
 I'm building a private systematic-research and paper-evaluation platform. It
@@ -30,7 +41,7 @@ engineering work.
 
 The portfolio documents real problems and design decisions from the private
 implementation. It includes a system-design overview and case studies on
-recovery, memory and evidence, and usage accounting. Source code, strategy logic,
+recovery, memory and evidence, and usage accounting. Trading-specific source code, strategy logic,
 prompts, datasets, and operational records remain private.
 
 ## Technical focus
