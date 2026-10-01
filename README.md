@@ -1,50 +1,13 @@
 # Hi, I'm @yellowagmi
 
-I build stateful AI applications and event-driven research infrastructure in
-Python. My focus is making model-driven workflows recoverable, measurable, and
-clear about which software owns authoritative state.
+I build stateful AI systems and research infrastructure in Python, with a focus on
+persistent memory, evidence provenance, and reliable operation.
 
-## Open source
+**[Evidence Memory](https://github.com/yellowagmi/evidence-memory)** is my open-source
+Python/SQLite library for retaining evidence, source-backed interpretations, and
+revision history. It is extracted from a private system that consumes the same
+pinned library source. Contributions are welcome.
 
-**[Evidence Memory](https://github.com/yellowagmi/evidence-memory)** is a Python/SQLite
-library extracted from my private system's memory layer. It retains evidence,
-source-backed interpretations, corrections, and time-aware revision history.
-The private application consumes the same pinned library source.
+My current research direction is persistent memory for iterative agent improvement.
 
-Its research direction is persistent memory for iterative agent improvement,
-one infrastructure slice for recursive self-improvement. The initial release
-focuses on verifiable memory behavior and independent use.
-
-## Current work
-
-I'm building a private systematic-research and paper-evaluation platform. It
-connects time-appropriate evidence, persistent specialist reasoning, a separate
-operational lifecycle, and feedback from attributable outcomes.
-
-My engineering work includes:
-
-- **System design:** explicit state ownership, asynchronous handoffs, and a
-  separation between model-authored intent and operational authority.
-- **Stateful AI:** bounded working context, durable evidence, retrieval, and
-  continuity across interruptions and context maintenance.
-- **Reliability:** replay-safe recovery, failure containment, transaction
-  boundaries, and diagnostics that distinguish process restart from progress.
-- **Evaluation and observability:** retained-case replay, regression tests,
-  stage-level timing, and usage accounting that keeps missing observations visible.
-
-Development uses coding agents for implementation and investigation, with
-candidate-bound verification, separate software review, and operator-controlled
-integration. I treat those controls and their limitations as part of the
-engineering work.
-
-**[Explore the engineering portfolio](https://github.com/yellowagmi/llm-systematic-trading-architecture)**
-
-The portfolio documents real problems and design decisions from the private
-implementation. It includes a system-design overview and case studies on
-recovery, memory and evidence, and usage accounting. Trading-specific source code, strategy logic,
-prompts, datasets, and operational records remain private.
-
-## Technical focus
-
-Python · SQL · SQLite · DuckDB · LLM application architecture · asynchronous
-systems · testing and evaluation · observability and recovery
+Python · SQL · SQLite · DuckDB · AI systems engineering
