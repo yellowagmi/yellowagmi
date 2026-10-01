@@ -1,49 +1,42 @@
-# Hello, I'm @yellowagmi
+# Hi, I'm @yellowagmi
 
-I build auditable AI-assisted systems for systematic trading research.
+I build stateful AI applications and event-driven research infrastructure in
+Python, with a focus on reliable operation, evaluation, and clear boundaries
+between model reasoning and software authority.
 
-My work combines event-driven trading infrastructure with LLM/MLOps research:
-point-in-time model inputs, independent research reviewers, portfolio-level
-arbitration, deterministic paper-trade lifecycles, experiment lineage, and
-evidence-gated evaluation.
+## Current work
 
-The production-oriented workspace remains private;
-selected engineering case studies are published here without proprietary
-strategy logic, prompts, market data, or performance claims.
+My current project is a private, model-guided systematic-research and
+paper-evaluation platform. The goal is to give specialist models useful evidence
+and durable context, connect their decisions to a reliable operational
+lifecycle, and improve the surrounding software through tested, separately
+reviewed changes.
 
-## Featured project
+My work spans:
 
-### LLM-Enabled Systematic Trading Architecture
+- **Stateful AI workflows:** structured outputs, persistent specialist sessions,
+  bounded working context, durable memory, retrieval, and outcome feedback.
+- **Reliable data and operations:** point-in-time inputs, explicit state
+  ownership, asynchronous handoffs, replay-safe lifecycles, and failure recovery.
+- **Evaluation and engineering:** regression tests, retained-case replay,
+  agent-assisted investigation and separate review, latency instrumentation,
+  and usage accounting that preserves uncertainty.
 
-A runnable public demo representing a sanitized vertical slice of an ongoing
-private, production-oriented systematic-trading platform. It shows how
-probabilistic research is bounded by deterministic software:
+Recent work has focused on recovery across retries and context transitions,
+efficient evidence access, and tracing model intent through accepted, rejected,
+and completed paper outcomes.
 
-- outcome-blind, point-in-time research contracts;
-- independently dispatched reviewers and separate portfolio-master arbitration;
-- cost-aware virtual positions, fills, marks, PnL, and replay-safe state;
-- versioned experiments, content-addressed evidence, and control comparisons;
-- explicit evidence floors that prevent conclusions from tiny samples; and
-- a hard boundary between research proposals and capital-affecting execution.
+[Read the engineering case study](https://github.com/yellowagmi/llm-systematic-trading-architecture)
 
-All public examples are synthetic, provider-free, and paper-only.
+The case study is documentation only. The implementation, strategy logic,
+prompts, datasets, and operational evidence remain private. It discusses system
+design and engineering tradeoffs rather than offering a demo or claiming
+profitable trading, proven learning gains, or unrestricted autonomous deployment.
 
-[View the repository](https://github.com/yellowagmi/llm-systematic-trading-architecture)
-· [LLM/MLOps architecture](https://github.com/yellowagmi/llm-systematic-trading-architecture/blob/main/docs/LLM_MLOPS_ARCHITECTURE.md)
-· [Paper-arm case study](https://github.com/yellowagmi/llm-systematic-trading-architecture/blob/main/docs/LLM_PAPER_ARM_CASE_STUDY.md)
+## Technical focus
 
-## Technical interests
+Python · SQL · SQLite · DuckDB · LLM application architecture · asynchronous
+systems · testing and evaluation · observability and recovery
 
-- Python and SQL-oriented data systems
-- LLM application architecture and structured model outputs
-- Multi-agent research orchestration and portfolio arbitration
-- Prompt/schema versioning, experiment lineage, and champion/challenger evaluation
-- DuckDB and SQLite state, evidence, and recovery architecture
-- Event-driven services and lifecycle state machines
-- Point-in-time controls and reproducible forward-paper evaluation
-- Testing, reconciliation, recovery, and observability
-- Safety-first boundaries for autonomous research systems
-
-I am interested in roles spanning Python/platform engineering, AI/ML systems,
-and quantitative research infrastructure where rigorous system design and
-clear operational reasoning matter.
+I am interested in applied AI engineering and AI/platform roles that combine
+hands-on implementation, end-to-end ownership, and clear technical communication.
